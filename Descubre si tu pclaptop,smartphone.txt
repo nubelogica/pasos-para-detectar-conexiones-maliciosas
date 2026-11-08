@@ -1,0 +1,23 @@
+Descubre si tu pc/laptop,smartphone (android y iphone) tienen trafico malicioso
+-Instala pcapdroid en andorid
+-Abre las app que usas normalmente
+-Abre pcadoid y le das en iniciar
+-te vas a la pestana de conexiones y allí observas lo que esta capturando
+-en la parte superior derecha en los tres puntitos clickeas y te va a dar la opción de exportar como csv antes de esto, esperas que registre al menos 5 minutos de captura  
+-Te vas a google y le dices convertir de csv a excel, conviertes el archivo
+-Te vas a virustotal, abuseipdb, metadefender y scanii y te registras, obtienes apis keys
+-te vas a gemini y haces un prompt adjuntando el xlsx en excel
+El prompt es el siguiente, [sigo hilo] 
+
+analiza estos dominios y sus ip asociadas con las siguientes apis keys, analiza las ip, dominio y puerto que estan listada en este documento usandos estas apis key:
+Abuseipdb
+tu api
+Meta defender
+tu api
+Virustotal
+tu api
+Scanii
+tu api
+En español, genérame un kpi en excel con toda la información con gráficos completos y bien hecho, vas a encontrar malware, ip reportada, ip que respondan a c2, ip y dominios de botnet, spyware, exploit, puertos y túneles ocultos  
+
+En windows, mac y linux usas wireshark solo que en vez de adjuntar el csv, tienes que subir el archivo pcapng exportado de wireshark no mayor a 100 megas usando el mismo prompt
